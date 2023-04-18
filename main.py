@@ -1,21 +1,29 @@
 
 
-def bubblesort(number):
+def makeStudent(student):
     ##################################################
     # Code your program here
     ##################################################
 
 
-def bubble(number):
+def printStudent(student):
+    ##################################################
+    # Code your program here
+    ##################################################
+
+
+def getMaxScore(student):
     ##################################################
     # Code your program here
     ##################################################
 
 
 def main():
-    number = list(map(int, input().split()))
-    bubblesort(number)
-    print(number)
+    student = {}
+    makeStudent(student)
+    printStudent(student)
+    sname = getMaxScore(student)
+    print(f'The max score student {sname} : {student[sname]}')
 
 
 if __name__ == '__main__':
